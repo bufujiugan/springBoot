@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.example.springBoot.domain.user.User;
-import com.example.springBoot.service.UserService;
+import com.example.springBoot.service.user.UserService;
 
 /**
  * 测试与用户表链接

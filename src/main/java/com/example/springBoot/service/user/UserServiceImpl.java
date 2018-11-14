@@ -1,4 +1,4 @@
-package com.example.springBoot.service;
+package com.example.springBoot.service.user;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
