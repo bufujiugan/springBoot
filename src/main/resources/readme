@@ -1,0 +1,3 @@
+DataSourceConfig 数据源
+ThymeleafController 模板
+测试数据源地址：http://localhost:8080/user/showUser?id=1
