@@ -15,6 +15,8 @@ public class NeoProperties {
 	private String title;
 	@Value("${com.example.springBoot.description}")
 	private String description;
+	@Value("${com.example.springBoot.uploadPath}")
+	private String uploadPath;
 	
 	
 	public String getTitle() {
@@ -28,6 +30,12 @@ public class NeoProperties {
 	}
 	public void setDescription(String description) {
 		this.description = description;
+	}
+	public String getUploadPath() {
+		return uploadPath;
+	}
+	public void setUploadPath(String uploadPath) {
+		this.uploadPath = uploadPath;
 	}
 	
 }
