@@ -14,11 +14,18 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.MultipartHttpServletRequest;
 
+/**
+ *  上传文件
+ * @author 于志强
+ *
+ * 2018年11月14日 下午3:20:13
+ */
 @Controller
 public class FileUploadController {
 
-	/*
-	 * 获取file.html页面
+	/**
+	 *  获取file.html页面
+	 * @return
 	 */
 	@RequestMapping("file")
 	public String file() {
